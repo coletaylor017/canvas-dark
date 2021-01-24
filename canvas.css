@@ -1,0 +1,104 @@
+:root {
+  --bg-primary: #111;
+  --bg-secondary: #333;
+  --text-primary: #dfdfdf;
+  --border-primary: #555;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.list-view a.active {
+  color: inherit;
+  border-color: var(--border-primary);
+}
+
+#breadcrumbs {
+  background-color: inherit;
+}
+
+#breadcrumbs > ul > li + li:last-of-type a {
+  color: inherit;
+}
+
+/* ASSIGNMENTS STYLES */
+
+/* assignments list container */
+.header-bar, .item-group-container {
+  background-color: inherit;
+}
+
+/* assignment list text */
+.accessible-toggler, .ig-list .ig-row a.ig-title {
+  color: inherit;
+}
+
+/* assignments list expanding cards */
+.item-group-condensed .ig-header, .item-group-condensed .ig-row {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-primary);
+
+}
+
+img {
+  filter: brightness(80%)
+}
+
+/* Active side nav item */
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+  background-color: var(--bg-primary);
+}
+
+/* DASHBOARD STYLES */
+.ic-DashboardCard, .ic-DashboardCard__header_content {
+  background-color: var(--bg-secondary);
+}
+
+.ic-DashboardCard__header-subtitle, .ic-DashboardCard__header-term {
+    color: var(--text-primary);
+    text-decoration-color: var(--text-primary)
+}
+
+.ic-Dashboard-header__layout{  background-color: var(--bg-primary)
+}
+
+/* forgot what this was */
+.esvoZ_drOs {
+  color: var(--text-primary)
+}
+
+/* term label under course selector */
+.dxCCp_bGBk {
+  color: var(--text-primary)
+}
+
+/* slideout course selector panel */
+.fLzZc_bGBk {
+  background-color: var(--bg-secondary)
+}
+
+/* INBOX STYLES */
+
+/* message list preview text */
+.message-list .author, .message-list .subject, .message-list .summary {
+  color: var(--text-primary)
+}
+
+/* message list preview bg */
+.message-list .messages > li {
+  background-color: var(--bg-secondary)
+}
+
+/* checkboxes on message previews */
+.yyQPt_cSXm {
+  color: var(--text-primary);
+  background-color: inherit;
+}
+
+/* panel at the top */
+.conversations .panel {
+  background-color: var(--bg-secondary)
+}
